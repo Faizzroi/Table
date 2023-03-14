@@ -23,7 +23,6 @@
     transition: border-color 0.25s;
   }
 
-
   table
   {
     border-collapse: collapse;
@@ -41,7 +40,7 @@
   table tr:nth-child(2n)
   {
     background-color: #ff3f3f38;
-    color: rgb(176, 27, 27);
+    color: rgb(189, 2, 2);
   }
   
   table td
@@ -49,24 +48,31 @@
     padding: 10px 50px;
   }
 
-  table
+  table td:nth-child(2),  td:nth-child(3)
   {
-    border-left: 1px solid;
+    padding: 0 110px;
   }
 
-  table thead
+  /* table
+  {
+    border-left: 1px solid;
+  } */
+
+  /* table thead
   {
     border-left: 1px solid ;
-  }
+  } */
 
   thead th:nth-child(-n+3)
   {
-    border: 1px solid;
+    border: 2px solid;
+    background-color:red;
+    color: white;
   }
 
   tr td:nth-child(-n+3)
   {
-    border: 1px solid;
+    border: 2px solid white;
     
   }
   
@@ -74,7 +80,7 @@
   {
     padding-left: 60px;
   }
-  
+
   thead th:nth-child(4)
   {
     background-color: white !important;
